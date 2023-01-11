@@ -1,0 +1,150 @@
+.shop_navbar{
+    height: 55px;
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.shop_ul{
+    display: flex;
+    list-style: none;
+    font-size: 19px;
+    padding-top:17px;
+
+}
+.shop_li{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #6c757d;
+   
+}
+.shop_li:hover{
+    border-bottom: solid 2px ;
+    cursor: pointer;
+}
+.shop_component{
+    display: flex;
+}
+.shop_title_1{
+display:flex;
+font-size: 20px;
+color: #282828;
+margin-left: 100px;
+margin-top: 20px;
+
+}
+.shop_window{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+.shop_list{
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 25px;
+   
+
+}
+.shop_window:hover{
+    cursor: pointer;
+    background-color: rgb(198, 198, 198);
+}
+.shop_list:hover{
+    cursor: pointer;
+    background-color: rgb(198, 198, 198);
+}
+
+.filter{
+    margin-left: 100px;
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.price{
+    margin-left: 30px;
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.price_title{
+    padding-left: 15px;
+    color: #6c757d;
+}
+.price_number{
+    border: solid 1px;
+    height: 20px;
+    width: 50px;
+    border-color: #d4d4d4;
+    text-align: center;
+    margin-left: 50px;
+    color: #6c757d;
+
+}
+.price1{
+    margin-left: 70px;
+}
+.price2{
+     margin-left: 70px;
+}
+
+.shop_title1{
+    margin-top:70px;
+    font-size: 20px;
+    color: #282828;
+    margin-top: 100px;
+
+}
+
+.filter_color{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 6px;
+}
+.price3{
+    margin-left: 100px;
+}
+.price4{
+    margin-left: 98px;
+}
+.price5{
+    margin-left: 115px;
+}
+.price6{
+    margin-left: 110px;
+}
+.price7{
+    margin-left: 85px;
+}
+.price8{
+    margin-left:120px;
+}
+.price9{
+    margin-left:130px;
+}
+.price10{
+    margin-left:120px;
+}
+.price11{
+    margin-left:125px;
+}
+.price12{
+    margin-left:110px;
+}
+
+.price_inp:checked{
+    color: red;
+}

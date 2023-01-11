@@ -1,0 +1,161 @@
+.footer{
+    display: flex;
+    height: 350px;
+    width: auto;
+    background-color: #3d464d;
+}
+.footer_1{
+    margin-left:100px;
+}
+.footer_title{
+    font-size: 1.25rem;
+    color: #f5f5f5;
+    margin-top: 60px;
+}
+.footer_text{
+    height: 100px;
+    width: 300px;
+    align-items: left;
+    color: #f5f5f5;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.footer_addres{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+.footer_addres_icon{
+    color: #ffd333;
+}
+.footer_addres_text{
+    color: #f5f5f5;
+    margin-left: 10px;
+}
+.footer_messeg{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 10px;
+
+
+}
+.footer_messeg_icon{
+    color: #ffd333;
+}
+.footer_messeg_text{
+    color: #f5f5f5;
+    margin-left: 10px;
+}
+.footer_number{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 10px;
+
+
+}
+.footer_number_icon{
+    color: #ffd333;
+}
+.footer_number_text{
+    color: #f5f5f5;
+    margin-left: 10px;
+} 
+.footer_2{
+    margin-left: 70px;
+}
+.footer_table{
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #f5f5f5;
+}
+.footer_table>li{
+    padding-bottom: 10px;
+    display: flex;
+}
+.table_text{
+    padding-left: 5px;
+}
+.table_text:hover{
+    border-bottom: solid 1px;
+    color: #a3a4a4;
+    
+}
+.footer_3{
+    margin-left: 180px;
+}
+.footer_4{
+    margin-left: 180px;
+}
+.footer_text_4{
+    height: 50px;
+    width: 230px;
+    align-items: left;
+    color: #f5f5f5;
+    font-size: 1rem;
+    margin-top: 15px;
+  
+}
+.footer_icons{
+    display: flex;
+    margin-top: 20px;
+}
+.footer_inp{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    text-align: left;
+    border: none;
+}
+.footer_btn{
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: #3d464d;
+    background-color: #ffd333;
+}
+.footer_title_4{
+    font-size: 1.25rem;
+    color: #f5f5f5;
+    margin-top: 30px;
+}
+.icon_twit{
+    height: 40px;
+    width: 40px;
+    background-color: #ffd333;
+    color: #3d464d;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.icon_face{
+    height: 40px;
+    width: 40px;
+    background-color: #ffd333;
+    color: #3d464d;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+
+}
+.icon_in{
+    height: 40px;
+    width: 40px;
+    background-color: #ffd333;
+    color: #3d464d;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+
+}
+.icon_insta{
+    height: 40px;
+    width: 40px;
+    background-color: #ffd333;
+    color: #3d464d;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+
+}

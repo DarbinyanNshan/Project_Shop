@@ -1,0 +1,17 @@
+.featured_title{
+    display: flex;
+    
+   
+}
+.featured_text{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #3d464d;
+   
+}
+.featured_hr{
+    border-bottom:   dotted 2px  ;
+    width: 1000px;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,59 @@
+.offer_images{
+    display: flex;
+}
+
+.offer_component_1{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-left: 100px;
+    
+  
+}
+
+.offer_component_1 img{
+     position: absolute;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+
+}
+.offer_component_1:hover img{
+  transform: scale(1.1) rotate(3deg);
+  transition: 5s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+
+}
+
+ .offer_text_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(61,70,77,.5);
+    z-index: 1;
+    color: #fff!important;
+    font-size: 30px ;
+}
+
+.offer_btn_1{
+    background-color: #FFD333;
+    border: none;
+    width:  100px;
+    height: 40px;
+    margin-top: 20px;
+} 
+
+
+
+    

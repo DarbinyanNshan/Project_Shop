@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 3rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+.col3 {
+    width: 65%;
+    padding-top: 0;
+    position: relative;
+}
