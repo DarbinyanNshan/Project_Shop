@@ -272,3 +272,15 @@ display: flex;
   font-size: 15px;
  
 }
+.LogOut{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border-color:  red;
+    background-color: red;
+    color: white;
+}
+.LogOut:hover{
+    color: red;
+    background-color: white;
+}

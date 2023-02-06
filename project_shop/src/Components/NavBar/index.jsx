@@ -9,7 +9,8 @@ import { BsFillSuitHeartFill } from "react-icons/bs";
 import { BsBasket3Fill } from "react-icons/bs";
 import { FaCreativeCommonsZero } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { Header } from "../Dashbord/Layout/Header";
 
 
 
@@ -20,7 +21,14 @@ export const NavBar = () =>{
         setBtn_1(!btn_1)
       } 
    
-         
+   
+  const LogOut = () => {
+    let x = localStorage.getItem("token")
+    if(x){
+      localStorage.removeItem("token")
+      window.location.reload()
+    }
+  }
     return <>  
     <div className="navbar">
         <ul>
@@ -49,8 +57,13 @@ export const NavBar = () =>{
         <div className="namer_nav">
             <span className="servic_nav">Customer Service</span><br/>
             <span className="servic_number">+012 345 6789</span>
+          
 
-        </div></div>
+        </div>
+        {/* <Link to="/dashbord" className="navlink">Dashbord</Link> */}
+        {/* <Header/> */}
+        <button className="LogOut" onClick={LogOut}>Log Out</button>
+        </div>
 
         <div className="navbar_menu">
             <div>

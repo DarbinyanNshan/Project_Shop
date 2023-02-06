@@ -1,8 +1,8 @@
 import React from "react"
-import Hearder_F from "../Home/Featured/Hearder_F"
 import "./style.css"
 import { AiFillWindows } from "react-icons/ai";
 import { TfiViewList } from "react-icons/tfi";
+import Hearder_F from "../Home/Featured/Hearder_F";
 
 
 
